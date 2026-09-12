@@ -1,6 +1,6 @@
 # Written by Benjamin Wenger on 3-13-26
-# Gesture Detection Program
 # Last Revision 8-10-26
+# Gesture Detection Program
 
 # Import Necessary Libraries
 import cv2 # OpenCV

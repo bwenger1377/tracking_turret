@@ -1,6 +1,6 @@
 # Written by Benjamin Wenger on 8-10-26
-# Angle Calculations w/ OpenCV
 # Last Revision 8-10-26
+# Angle Calculations w/ OpenCV
 
 # Import libraries
 import cv2 # OpenCV
