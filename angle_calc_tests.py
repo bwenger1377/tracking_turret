@@ -8,7 +8,7 @@ import numpy as np
 import time # As needed
 
 # Specify camera resolution
-HD = (1280, 720)
+HD = (2592, 1944)
 resolution = HD
 
 # Define constant values for frame coordinates
@@ -32,6 +32,7 @@ while True:
     frame = cv2.resize(frame, resolution) # Resize the frame to a higher resolution
     frame = cv2.flip(frame, flipCode=1) # Flip the flame L-R
     cv2.circle(frame, (int(CENTER_X), int(CENTER_Y)), 5, (0,0,255), thickness=2) # Add a circle to the center of the frame
+    frame = cv2.resize(frame, (1280, 720)) # Resize the frame to a lower resolution for display
     cv2.imshow("Channel 1", frame) # Display the current frame on the screen
 
     # Exit video capture loop if ESC key pressed
